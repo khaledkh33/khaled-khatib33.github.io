@@ -4,4 +4,10 @@
 font-size: 20mm; 
 font-style: italic ;
 font-stretch: wider;
+
+}
+
+#imglogo1
+{
+    float: right;
 }
