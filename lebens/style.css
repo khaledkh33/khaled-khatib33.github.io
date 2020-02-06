@@ -1,20 +1,50 @@
-body{
+body
+{
     background-image: url(3.jpg);
     background-size: cover;
 }
-
-img  {
+img
+  {
     border-color: rgb(174, 201, 216);
-    border-width: 10px;
+    border-width: 5px;
     border-style: solid;
     border-radius: 50%;
-    margin-left: 0px;
-    width :150px;
+    margin-left: 1%;
+    width :120px;
   }
  #h1pro
  {
-    
-     font-style: italic;
-     font-size: 22mm;
+     font-size: 18mm;
      color: rgb(174, 201, 216);
+     font-style: italic;
  }
+ .b-contak-us 
+ {
+  float: inline-end; 
+  width: 20%;
+  height: 20%;"
+}
+.info-contakt
+{
+  width: 20%;
+  height: 20%;"
+
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+  }
+  
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
