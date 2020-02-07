@@ -12,7 +12,9 @@ img
     border-radius: 50%;
     margin-left: 1%;
     width :120px;
+    animation: show 2s;
   }
+
  #h1pro
  {
      font-size: 18mm;
@@ -23,12 +25,12 @@ img
  {
   float: inline-end; 
   width: 20%;
-  height: 20%;"
+  height: 20%;
 }
 .info-contakt
 {
   width: 20%;
-  height: 20%;"
+  height: 20%;
 
 }
 
@@ -118,3 +120,25 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+@keyframes show {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+/*         */
+
+
+#foto1 { 
+  transform: translateZ(0);
+}
+#foto2 {
+  position: fixed;
+}
+
+/*         */
